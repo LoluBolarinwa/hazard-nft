@@ -13,6 +13,10 @@ describe('NFT', () => {
   const SYMBOL = "AINFT"
   const COST = tokens(1) // 1 ETH
   const URL = "https://ipfs.io/ipfs/bafyreid4an6ng6e6hok56l565eivozra3373bo6funw3p5mhq5oonew6u4/metadata.json"
+  // <div className="image">
+  //         <img src=""  alt="AI generated Image" />
+  //         <img src=""  alt="AI generated Image" />
+  //       </div>
 
   beforeEach(async () => {
     // Setup accounts
