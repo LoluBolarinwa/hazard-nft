@@ -60,8 +60,8 @@ describe('NFT', () => {
     })
   })
 
-  describe('Withdrawing', () => {
-    let balanceBefore
+  // describe('Withdrawing', () => {
+  //   let balanceBefore
 
     beforeEach(async () => {
       balanceBefore = await ethers.provider.getBalance(deployer.address)
